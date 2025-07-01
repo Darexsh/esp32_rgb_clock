@@ -452,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nrf_rgb_clock.kicad_pro",
+    "filename": "Project.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -524,24 +524,12 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "lcsc_new",
-          "name": "lcsc_new",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -559,28 +547,16 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFN",
-          "name": "MFN",
-          "show": false
         },
         {
           "group_by": false,
@@ -590,32 +566,14 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MNR",
           "name": "MNR",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "lcsc",
-          "name": "lcsc",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": false
         }
       ],
@@ -623,7 +581,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "lcsc_new"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
