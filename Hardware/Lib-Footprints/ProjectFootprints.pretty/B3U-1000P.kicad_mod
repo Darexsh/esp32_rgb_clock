@@ -166,4 +166,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "20f5d6cb-baef-4cc9-a002-e36d34a3f491")
 	)
+	(model "${KIPRJMOD}/Lib-3D-Files/B3U-1000P.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

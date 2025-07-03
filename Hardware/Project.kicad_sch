@@ -4030,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 90.17 49.53)
+			(xy 91.44 87.63) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4110,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 90.17 52.07)
+			(xy 91.44 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4942,7 +4942,7 @@
 	)
 	(global_label "LED_SEGMENTS"
 		(shape input)
-		(at 91.44 52.07 0)
+		(at 91.44 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4952,7 +4952,7 @@
 		)
 		(uuid "148064f3-09d1-4d2d-bcf2-d810aa807f65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5764 52.07 0)
+			(at 108.5764 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 	)
 	(global_label "LED_CIRCLE"
 		(shape input)
-		(at 91.44 49.53 0)
+		(at 91.44 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5128,7 +5128,7 @@
 		)
 		(uuid "c87e0b8c-cc89-4b03-8129-5ce2f0657108")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4318 49.53 0)
+			(at 105.4318 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

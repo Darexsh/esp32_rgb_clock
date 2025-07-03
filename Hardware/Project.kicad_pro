@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.0,
+          "width": 0.1671
         }
       ],
       "drc_exclusions": [],
@@ -179,8 +184,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1565,
         0.16,
+        0.1671,
+        0.2,
         0.3,
         0.5
       ],
@@ -216,8 +222,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.25,
-          "drill": 0.15
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -496,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
